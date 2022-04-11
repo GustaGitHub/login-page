@@ -68,6 +68,11 @@ export const ElementInput = styled.input`
       border: 3px solid rgb(65, 190, 255, 0.85);
       animation: ${focusInput} ease-out 800ms;
    }
+
+   @media (max-width: 930px){
+      margin-top: 25px;
+      width: 300px;
+   }
 `
 
 export const ButtonForm = styled.button`
@@ -84,6 +89,10 @@ export const ButtonForm = styled.button`
    :hover{
       background-color: rgb(235, 20, 20);
       animation: ${hoverBtn} ease-out 750ms;
+   }
+
+   @media (max-width: 930px){
+      width: 340px;
    }
 `
 
